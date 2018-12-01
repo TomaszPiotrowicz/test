@@ -1,6 +1,6 @@
 package pl.tomek.my_git_test;
 
-public class Car {
+public class Auto {
 
 
     private String brand;
@@ -8,13 +8,13 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Auto{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 '}';
     }
 
-    public Car(String brand, String model) {
+    public Auto(String brand, String model) {
         this.brand = brand;
         this.model = model;
     }
